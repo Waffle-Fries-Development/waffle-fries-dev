@@ -58,6 +58,8 @@ jobs:
         run: |
           yarn build
           ls -la
+          cat next.config.js
+          cat next.config.mjs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
