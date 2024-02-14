@@ -4,6 +4,7 @@ const environment = process.env.NODE_ENV ||= "development";
 const nextConfig = {};
 if (environment === "production") {
     nextConfig["output"] = "export";
+    nextConfig["images"]["unoptimized"] = true;
 }
 
 export default nextConfig;
