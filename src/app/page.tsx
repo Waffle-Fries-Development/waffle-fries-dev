@@ -8,7 +8,7 @@ export default function Home() {
             <div className={styles.center}>
                 <Image
                     className={styles.logo}
-                    src="/waffle.png"
+                    src="/waffle-fries-dev/waffle.png"
                     alt="Waffle Logo"
                     width={900}
                     height={600}
