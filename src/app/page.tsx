@@ -16,7 +16,7 @@ export default function Home() {
                 />
             </div>
             <div className={styles.center}>
-                <p><a className={styles.link} href={"https://github.com/wafflefriesdev"} target={"_blank"}>Github</a></p>
+                <p><a className={styles.link} href={"https://github.com/Waffle-Fries-Development"} target={"_blank"}>Github</a></p>
                 <p>Contact: hayden@wafflefries.dev</p>
             </div>
 
